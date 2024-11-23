@@ -1,0 +1,872 @@
+.nav{
+    padding-left: 20px;
+    margin-right: 50px;
+}
+
+.navv{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 450px;
+}
+.heroimg{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    img{
+        height: 600px;
+        width: 1518px;
+    }
+}
+
+
+.search{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+
+    input{
+        height: 30px;
+        width: 400px;
+        border: 1px solid grey;
+        border-radius: 20px;
+        margin-top: 10px;
+        text-align: center;
+        color: black;
+        margin-bottom: 10px;
+        position: absolute;
+        
+    }
+
+    img{
+    height: 40px;
+    width: 40px;
+    margin-right: 18px;
+    margin-top: 9px;
+
+    .cart img{
+        height: 40px;
+        width: 40px;
+    }
+}
+}
+
+.icons-left{
+    display: flex;
+    margin-left: 1400px;
+}
+.image-down{
+    position: relative;
+}
+.image-up{
+    position: absolute;
+}
+.heroimg > h4 {
+    position: absolute;
+    bottom: 80px;
+    color: aliceblue;
+    left:50px;
+    font-size: xx-large;
+
+}
+.heroimg > h3 {
+    position: absolute;
+    font-size: medium;
+    font-weight: 100;
+    bottom: 50px;
+    color: aliceblue;
+    left: 50px;
+}
+.heroimg > button{
+    position: absolute;
+    bottom: 50px;
+    height: 40px;
+    width: 150px;
+    background-color: transparent;
+    border-radius: 20px;
+    right: 50px;
+    border: 1px solid white;
+    color: aliceblue;
+}
+
+.heroimg > button:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+    transition: ease-in 0.5s;
+}
+
+.product1{
+    margin-top: 50px;
+    border: 2px solid gray;
+    height: 300px;
+    width: 350px;
+    margin-left: 30px;
+    border-radius: 30px;
+    img{
+        height: 290px;
+        width: 290px;
+        margin-left: 30px;
+        margin-top: -60px;
+    }
+}
+.product1 > h2{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 120px;
+    font-size: large;
+    font-weight: 200;
+}
+.product1 > p{
+    position: absolute;
+    text-align: center;
+    font-size: smaller;
+    font-weight: 100;
+    margin-left: 05px;
+    margin-top: -30px;
+    color: gray;
+}
+.product1 >.buttons > .Buy{
+    cursor: pointer;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+.product1 >.buttons > .cartimg{
+    position: absolute;
+    height: 35px;
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 110px;
+  
+    img{
+        height: 20px;
+        width: 20px;
+        margin-left: -2px;
+        margin-top: 4px;
+        
+    }
+}
+.product1 >.buttons > .Buy:hover{
+    background-color: white;
+    color: black;
+    transition: ease-in 0.5s;
+}
+
+
+.product2{
+    margin-top: 50px;
+    border: 2px solid gray;
+    height: 300px;
+    width: 350px;
+    margin-left: 30px;
+    border-radius: 30px;
+    img{
+        height: 250px;
+        width: 290px;
+        margin-left: 30px;
+        margin-top: -60px;
+    }
+}
+.product2 > h2{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 150px;
+    font-size: large;
+    font-weight: 200;
+}
+.product2 > p{
+    position: absolute;
+    text-align: center;
+    font-size: smaller;
+    font-weight: 100;
+    margin-left: 05px;
+    margin-top: 0px;
+    color: gray;
+}
+.product2 >.buttons > .Buys{
+    cursor: pointer;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+}
+.product2 >.buttons > .cartimgs{
+    position: absolute;
+    height: 35px;
+    width: 50px;
+    margin-top: 60px;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 110px;
+  
+    img{
+        height: 20px;
+        width: 20px;
+        margin-left: -2px;
+        margin-top: 4px;
+        
+    }
+}
+.product2 >.buttons > .Buys:hover{
+    background-color: white;
+    color: black;
+    transition: ease-in 0.5s;
+}
+
+.items{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+.navv{
+    display: flex;
+    padding-right: 20px;
+    gap: 50px;
+    margin-left: 580px;
+}
+
+
+.product3{
+    margin-top: 50px;
+    border: 2px solid gray;
+    height: 300px;
+    width: 350px;
+    margin-left: 30px;
+    border-radius: 30px;
+    img{
+        height: 250px;
+        width: 290px;
+        margin-left: 30px;
+        margin-top: -60px;
+    }
+}
+.product3 > h2{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 150px;
+    font-size: large;
+    font-weight: 200;
+}
+.product3 > p{
+    position: absolute;
+    text-align: center;
+    font-size: smaller;
+    font-weight: 100;
+    margin-left: 05px;
+    margin-top: 0px;
+    color: gray;
+}
+.product3 >.buttonss > .Buyss{
+    cursor: pointer;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+}
+.product3 >.buttonss > .cartimgss{
+    position: absolute;
+    height: 35px;
+    width: 50px;
+    margin-top: 60px;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 110px;
+  
+    img{
+        height: 20px;
+        width: 20px;
+        margin-left: -2px;
+        margin-top: 4px;
+        
+    }
+}
+.product3 >.buttonss > .Buyss:hover{
+    background-color: white;
+    color: black;
+    transition: ease-in 0.5s;
+}
+
+.item2{
+    display: flex;
+    gap: 1px;
+    margin-left: -25px;
+}
+
+
+.product4{
+    margin-top: 50px;
+    border: 2px solid gray;
+    height: 300px;
+    width: 350px;
+    margin-left: 30px;
+    border-radius: 30px;
+    img{
+        height: 150px;
+        width: 150px;
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+}
+.product4 > h2{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 150px;
+    font-size: large;
+    font-weight: 200;
+}
+.product4 > p{
+    position: absolute;
+    text-align: center;
+    font-size: smaller;
+    font-weight: 100;
+    margin-left: 05px;
+    margin-top: 40px;
+    color: gray;
+}
+.product4 >.buttons4 > .Buy4{
+    cursor: pointer;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 90px;
+    background-color: black;
+    color: white;
+}
+.product4 >.buttons4 > .cartimg4{
+    position: absolute;
+    height: 35px;
+    width: 50px;
+    margin-top: 90px;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 110px;
+  
+    img{
+        height: 20px;
+        width: 20px;
+        margin-left: -2px;
+        margin-top: 4px;
+        
+    }
+}
+.product4 >.buttons4 > .Buy4:hover{
+    background-color: white;
+    color: black;
+    transition: ease-in 0.5s;
+}
+
+
+.product5{
+    margin-top: 50px;
+    border: 2px solid gray;
+    height: 300px;
+    width: 350px;
+    margin-left: 30px;
+    border-radius: 30px;
+    img{
+        height: 180px;
+        width: 280px;
+        margin-left: 30px;
+        margin-top: -10px;
+    }
+}
+.product5 > h2{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 120px;
+    font-size: large;
+    font-weight: 200;
+}
+.product5 > p{
+    position: absolute;
+    text-align: center;
+    font-size: smaller;
+    font-weight: 100;
+    margin-left: 05px;
+    margin-top: 25px;
+    color: gray;
+}
+.product5 >.buttons5 > .Buy5{
+    cursor: pointer;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 80px;
+    background-color: black;
+    color: white;
+}
+.product5 >.buttons5 > .cartimg5{
+    position: absolute;
+    height: 35px;
+    width: 50px;
+    margin-top: 80px;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 110px;
+  
+    img{
+        height: 20px;
+        width: 20px;
+        margin-left: -2px;
+        margin-top: 4px;
+        
+    }
+}
+.product5 >.buttons5 > .Buy5:hover{
+    background-color: white;
+    color: black;
+    transition: ease-in 0.5s;
+}
+
+.product6{
+    margin-top: 50px;
+    border: 2px solid gray;
+    height: 300px;
+    width: 350px;
+    margin-left: 30px;
+    border-radius: 30px;
+    img{
+        height: 230px;
+        width: 230px;
+        margin-left: 60px;
+        margin-top: -40px;
+    }
+}
+.product6 > h2{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 120px;
+    font-size: large;
+    font-weight: 200;
+}
+.product6 > p{
+    position: absolute;
+    text-align: center;
+    font-size: smaller;
+    font-weight: 100;
+    margin-left: 05px;
+    margin-top: 10px;
+    color: gray;
+}
+.product6 >.buttons6 > .Buy6{
+    cursor: pointer;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+}
+.product6 >.buttons6 > .cartimg6{
+    position: absolute;
+    height: 35px;
+    width: 50px;
+    margin-top: 60px;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 110px;
+  
+    img{
+        height: 20px;
+        width: 20px;
+        margin-left: -2px;
+        margin-top: 4px;
+        
+    }
+}
+.product6 >.buttons6 > .Buy6:hover{
+    background-color: white;
+    color: black;
+    transition: ease-in 0.5s;
+}
+
+
+.product7{
+    margin-top: 50px;
+    border: 2px solid gray;
+    height: 300px;
+    width: 350px;
+    margin-left: 30px;
+    border-radius: 30px;
+    img{
+        height: 290px;
+        width: 290px;
+        margin-left: 30px;
+        margin-top: -60px;
+    }
+}
+.product7 > h2{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 120px;
+    font-size: large;
+    font-weight: 200;
+}
+.product7 > p{
+    position: absolute;
+    text-align: center;
+    font-size: smaller;
+    font-weight: 100;
+    margin-left: 05px;
+    margin-top: -30px;
+    color: gray;
+}
+.product7 >.buttons7 > .Buy7{
+    cursor: pointer;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+.product7 >.buttons7 > .cartimg7{
+    position: absolute;
+    height: 35px;
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 110px;
+  
+    img{
+        height: 20px;
+        width: 20px;
+        margin-left: -2px;
+        margin-top: 4px;
+        
+    }
+}
+.product7 >.buttons7 > .Buy7:hover{
+    background-color: white;
+    color: black;
+    transition: ease-in 0.5s;
+}
+
+
+
+.nexthero{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 480px;
+    width: 1300px;
+    margin-top: 60px;
+    margin-left: 20px;
+    background-color: black;
+    h1{
+        color: aliceblue;
+        margin-left: 30px;
+        margin-top: 30px;
+        font-weight: 1200;
+    }
+    .one{
+        position: absolute;
+        height: 600px;
+        margin-top: -160px;
+        margin-left: 1100px;
+    }
+    p{
+        color: white;
+        margin-left: 30px;
+        font-weight: 300;
+        margin-top: 330px;
+    }
+    .two{
+        position: absolute;
+        margin-top: -500px;
+        margin-left: -150px;
+    }
+    button{
+        position: absolute;
+        height: 40px;
+        width: 130px;
+        border-radius: 20px;
+        margin-top: -180px;
+        margin-left: 950px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+    }
+    button:hover{
+        cursor: pointer;
+        border: 1px solid rgb(0, 0, 0);
+        color: black;
+        background-color: white;
+        transition: ease-in-out 0.5s;
+    }
+    h3{
+        position: absolute;
+        color: aliceblue;
+        margin-top: -250px;
+        margin-left: 950px;
+
+    }
+}
+
+
+.customer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    .cus1{
+        border: 2px solid rgb(84, 84, 84);
+        border-radius: 10px;
+        height: 300px;
+        width: 300px;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .amal{
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-left: 85px;
+    }
+    .rating{
+        height: 90px;
+        margin-top: -70px;
+    }
+    .name{
+        margin-top: 10px;
+        margin-left: 100px;
+        font-size: medium;
+        font-weight: 600;
+        color: black;
+
+    }
+    .rate{
+        margin-left: 10px;
+        margin-top: 20px;
+        color: rgb(0, 0, 0);
+        stroke: black;
+    }
+    .des{
+        font-size: small;
+        margin-top: 10px;
+        margin-left: 20px;
+
+    }
+    .ratings{
+        display: flex;
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-bottom: 35px;
+
+        p{
+            margin-top: 3px;
+        }
+    }
+
+
+    .cus2{
+        border: 2px solid rgb(84, 84, 84);
+        border-radius: 10px;
+        height: 300px;
+        width: 300px;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    img{
+        height: 120px;
+        width: 120px;
+        border-radius: 40%;
+        margin-top: 10px;
+        margin-left: 85px;
+    }
+    .name1{
+        margin-top: 10px;
+        margin-left: 100px;
+        font-size: medium;
+        font-weight: 600;
+        color: black;
+
+    }
+    .rate1{
+        margin-left: 10px;
+        margin-top: 20px;
+        color: rgb(0, 0, 0);
+        stroke: black;
+    }
+    .des1{
+        font-size: small;
+        margin-top: 50px;
+        margin-left: 20px;
+
+    }
+
+
+    .cus3{
+        border: 2px solid rgb(84, 84, 84);
+        border-radius: 10px;
+        height: 300px;
+        width: 300px;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    img{
+        height: 120px;
+        width: 120px;
+        border-radius: 40%;
+        margin-top: 10px;
+        margin-left: 85px;
+    }
+    .name2{
+        margin-top: 10px;
+        margin-left: 110px;
+        font-size: medium;
+        font-weight: 600;
+        color: black;
+
+    }
+    .rate2{
+        margin-left: 10px;
+        margin-top: 20px;
+        color: rgb(0, 0, 0);
+        stroke: black;
+    }
+    .des2{
+        font-size: small;
+        margin-top: 50px;
+        margin-left: 20px;
+
+    }
+
+
+    .cus4{
+        border: 2px solid rgb(84, 84, 84);
+        border-radius: 10px;
+        height: 300px;
+        width: 300px;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    img{
+        height: 120px;
+        width: 120px;
+        border-radius: 60%;
+        margin-top: 10px;
+        margin-left: 85px;
+    }
+    .name3{
+        margin-top: 10px;
+        margin-left: 125px;
+        font-size: medium;
+        font-weight: 600;
+        color: black;
+
+    }
+    .rate3{
+        margin-left: 10px;
+        margin-top: 20px;
+        color: rgb(0, 0, 0);
+        stroke: black;
+    }
+    .des3{
+        font-size: small;
+        margin-top: 50px;
+        margin-left: 20px;
+
+    }
+}
+
+
+.foot{
+        height: 300px;
+        background-color: black;
+        margin-top: 40px;
+        color: white;
+        padding-top: 50px;
+        display: flex;
+        
+        li{
+            padding: 10px;
+            list-style: none;
+            margin-left: 80px;
+        }
+        .list2{
+            cursor: pointer;
+            margin-left: 60px;
+            padding: 0px;
+        }
+}
+
+.mailbox{
+    border: 1px solid rgb(255, 252, 252);
+    height: 230px;
+    width: 380px;
+    margin-left: 100px;
+    border-radius: 20px;
+    h4{
+        text-align: center;
+    }
+    p{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    input{
+        height: 30px;
+        width: 300px;
+        margin-left: 20px;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(5, 5, 5);
+    }
+    button{
+        cursor: pointer;
+        margin-top: 20px;
+        border-radius: 10px;
+        height: 30px;
+        width: 100px;
+        margin-left: 120px;
+        background-color: white;
+    }
+    list3{
+        cursor: pointer;
+        margin-top: 30px;
+    }
+}  
+.ava{
+    margin-left: 40px;
+    h3{
+        padding-left: 40px;
+        color: rgb(255, 255, 255);
+}
+    .googleplay{
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 10px;
+        justify-content: center;
+        
+    }
+    .img22{
+        margin-left: 50px;
+    }
+}
+
